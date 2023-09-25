@@ -1,0 +1,287 @@
+﻿MANDT,SPRAS,AUGRU,BEZEI
+500,E,,
+500,E,001,Sales call
+500,E,002,Trade fair sales activity
+500,E,003,Television commercial
+500,E,004,Customer recommendation
+500,E,005,Newspaper advertisement
+500,E,006,Excellent price
+500,E,007,Fast delivery
+500,E,008,Good service
+500,E,100,Price difference: price was too high
+500,E,101,Poor quality
+500,E,102,Damaged in transit
+500,E,103,Quantity discrepancy
+500,E,104,Material ruined
+500,E,105,Free of charge sample
+500,E,111,Price diff. Misc.sls: price was too high
+500,E,200,Price difference: price was too low
+500,E,222,Price diff. Misc.sls: price was too low
+500,E,300,Tax Only Credit
+500,E,E01,Fuel and Oil
+500,E,E02,Tyres
+500,E,E03,Casual Labour
+500,E,E04,Sleepout - Salesman
+500,E,E05,Petty Cash Reimbursement
+500,E,E06,Sleep out – V. Assistant
+500,E,E07,Toll fees
+500,E,E08,Telephone
+500,E,E09,Repairs and Maintenance
+500,E,E10,Pad Locks
+500,E,E11,PDP
+500,E,EDI,Self-billing proced.
+500,E,QBI,SBWAP: Difference Clearing (Qty/Value)
+500,E,QOI,SBWAP: New Open Items (Quantity(Value)
+500,E,VBI,SBWAP: Difference Clearing (Value)
+500,E,VOI,SBWAP: New Open Items (Value)
+500,E,Y01,Goods Invoiced to 3PLs/Missing Goods
+500,E,Y02,Pallets
+500,E,Y03,Transport Delay
+500,E,Y04,Carrier didn't arrived
+500,E,Y81,Gross / Net weight differencie in docs
+500,E,Y82,Error in ship via
+500,E,Y83,Corresponde a Factura Tradicional
+500,E,YC1,Cust_Customer's carrier issues(ex.works)
+500,E,YC2,Cust_Customer Cancelled Product
+500,E,YC3,Cust_Customer Cancelled Order
+500,E,YC4,Cust_Customer Requested Change
+500,E,YC5,Cust_Customer Ordering error
+500,E,YC6,Cust_Customer Refusal - Master Data
+500,E,YC7,Cust_Customer Line Cancelled
+500,E,YC8,Cust_Customer Delisted SKU
+500,E,YD1,DP_New product launch
+500,E,YD2,DP_Promo FC Error
+500,E,YD3,DP_Base FC Error
+500,E,YD4,DP_Product changeover
+500,E,YE1,FM_Operational Incident
+500,E,YE2,FM_National Incident
+500,E,YE3,FM_Environmental Incident
+500,E,YF1,FG_Insufficient production capacity
+500,E,YF2,FG_Inventory below defined parameters
+500,E,YF3,FG_Scheduling error
+500,E,YF4,FG_Outside production cycle window
+500,E,YF5,FG_Co-man production vol below agreement
+500,E,YF7,FG_Display preparation not on time
+500,E,YI1,IT_IT Systems Failure
+500,E,YK1,KAM_Admin Error (Pricing/Promo/NPD)
+500,E,YK2,KAM_Business intelligence/Comm. factors
+500,E,YK3,KAM_Sales Order entry error
+500,E,YK4,KAM_Credit related
+500,E,YK5,KAM_Master Data Issues
+500,E,YK6,KAM_Customer refused delivery
+500,E,YK7,KAM_No unloading-waiting time over 3 h
+500,E,YL0,Distr_refusal bad condition DLV vehicle
+500,E,YL1,Distr_Carrier delayed delivery
+500,E,YL2,Distr_Carrier capacity
+500,E,YL3,Distr_Planning error Transp. & Logistics
+500,E,YL4,Distr_Damaged product during transport
+500,E,YL5,Distr_Missing Actual Delivery Date
+500,E,YL6,Distr_Refusal due to delayed delivery
+500,E,YL7,Distr_missing unloading window booked
+500,E,YL8,Distr_Missing delivery paper
+500,E,YL9,Distr_Refused by customer-even received
+500,E,YM1,Mfg_Unscheduled downtime
+500,E,YM2,Mfg_Waste
+500,E,YO1,OM_Order Management Process
+500,E,YO2,OM_Order Entry Correction
+500,E,YO3,OM_Order Entry Error
+500,E,YO4,OM_SKU Rotation
+500,E,YP1,DRP_Insufficient product avail-ty at DCs
+500,E,YP2,DRP_Sourcing Changed
+500,E,YR1,RM_Purchasing Quality issue
+500,E,YR2,RM_Insufficient raw materials supply
+500,E,YT1,STO_Carrier delayed delivery
+500,E,YT2,STO_Carrier capacity
+500,E,YT3,STO_Customer refused delivery
+500,E,YT4,STO_Damaged product during transport
+500,E,YW1,WH_Picking Errors
+500,E,YW2,WH_Damage
+500,E,YW3,WH_Stock inconsistency
+500,E,YW4,WH_Preparation not on time
+500,E,YW5,WH_Loading errors
+500,E,YW6,WH_Picking&Loading Error
+500,E,YW7,WH_Damaged pallet
+500,E,YW8,WH_Short best before date
+500,E,YX1,X-Doc_Carrier Damaged Product
+500,E,YX2,X-Doc_Carrier Missing Product
+500,E,Z01,Less than Delivery Note
+500,E,Z02,Over than Delivery Note
+500,E,Z03,Customer has not ordered it
+500,E,Z04,Delivery is out of delivery window
+500,E,Z0A,A&R 1 - Freight costs reimbursment
+500,E,Z0B,Customer 1 - Disagreement
+500,E,Z0C,Customer 2 - Order not conform to CGV
+500,E,Z0D,Customer 3 - Unplanned promotion
+500,E,Z0E,Customer4-Launching/StoppingDate not met
+500,E,Z0F,Haulier 1 - Wet products haulier
+500,E,Z0G,Haulier 2 - Transportation capacity
+500,E,Z0H,PCF 1 - Unplanned promotion
+500,E,Z0I,PCF 2 - Launching/StoppingDate not met
+500,E,Z0J,PCF 3 - Refusal short best-before date
+500,E,Z0K,WRH 1 - Breakage
+500,E,Z0L,WRH 2 - Inversion
+500,E,Z0M,WRH 3 - Refusal short best-before date
+500,E,Z0N,WRH 4 - Error performing cross dock
+500,E,Z0O,WRH 5 - Wrong destination
+500,E,Z0P,WRH 6 - Strike
+500,E,Z24,Delivery to destruction company
+500,E,ZA1,ALL-01: Disposition error customer
+500,E,ZA2,ALL-02: Disposition error Cust. Rep.
+500,E,ZA3,ALL-03: Order Entry Error
+500,E,ZA4,ALL-04: Miscellaneous (add text)
+500,E,ZA5,ALL-05: MULTIPLE REASONS (add text)
+500,E,ZA6,ALL-06: HR&PR initiatives
+500,E,ZA7,ALL-07: Entertainment expenses
+500,E,ZA8,ALL-08: MULTIPLE REASONS (add text)
+500,E,ZAM,POSM materials
+500,E,ZB1,Buy-back-01: Not passed the bar code
+500,E,ZB2,Buy-back-02: Return of products at liqui
+500,E,ZB3,Buy-back-03: Error customer representati
+500,E,ZB4,Buy-back-04: Breakage
+500,E,ZC1,C&R-01:Credit/DN for wrong invoice
+500,E,ZC2,C&R-02:Credit/DN - Price difference
+500,E,ZC3,C&R-04:Return short best-before date
+500,E,ZC4,C&R-05:Customer error-wrong material
+500,E,ZC5,C&R-06: Errors in loading
+500,E,ZC6,C&R-07: Return damaged pallet
+500,E,ZC7,C&R-08: Release KAM - Budget KAM
+500,E,ZC8,C&R-09: Damaged in transit - carrier
+500,E,ZC9,C&R-10: Quality issue with product
+500,E,ZCA,C&R-11: Breakage
+500,E,ZCB,C&R-13: Delivery point closed
+500,E,ZCC,C&R-14: Customer received less than orde
+500,E,ZCD,C&R-15: Delay - Customer
+500,E,ZCE,C&R-16: Failed dispatch
+500,E,ZCF,C&R-17: Incompleteness of documents
+500,E,ZCG,C&R-18: No bill ticket
+500,E,ZCH,C&R-19:No responsible person
+500,E,ZCI,C&R-12: Central Invoicing
+500,E,ZCJ,C&R-20: No stamp for delivery confirmati
+500,E,ZCK,C&R-21: Not passed the bar code
+500,E,ZCL,C&R-22: Return empties
+500,E,ZCM,C&R-23: Return of products at liquidatio
+500,E,ZCN,C&R-24: Wrong delivery address
+500,E,ZCO,C&R-25: Return CO2 cylinders
+500,E,ZCP,C&R-03: Credit for Deposit
+500,E,ZCQ,DE2-C&R-04: For One- Way Deposit
+500,E,ZCR,Wrong payer
+500,E,ZCS,C&R-25: Wrong temperature
+500,E,ZD1,Donation
+500,E,ZD2,Non-Funded Donation
+500,E,ZE1,Sales of expired returnable empties
+500,E,ZE2,Write off expired returnable empties
+500,E,ZE3,With sellable empty
+500,E,ZE4,With returnable empty
+500,E,ZF1,FIN 1 - AdminDeliveries(WholesalersSale)
+500,E,ZF2,FIN 2 - CN on sales volumes quota
+500,E,ZF3,FIN 3 - Commercial gesture on promo
+500,E,ZF4,FIN 4 - Commercial gesture on unsold pro
+500,E,ZF5,FIN 5 - Logistic surchages
+500,E,ZF6,FIN 6 - No Sales communication on time
+500,E,ZF7,FIN 7 - Taxes corrections
+500,E,ZFD,Free of Charge Delivery
+500,E,ZI1,CIM code is missing
+500,E,ZI2,CIM code is unreadable
+500,E,ZI3,CIM code is invalid
+500,E,ZM1,No contract hard copy
+500,E,ZM2,Contract hard copy provided
+500,E,ZML,Raw milk
+500,E,ZP0,Promo: Separate delivery
+500,E,ZP1,Promo: Coupon
+500,E,ZP2,Promo: Newspaper
+500,E,ZP3,Promo: Flyer incl. price-off
+500,E,ZP4,Promo: Flyer without price-off
+500,E,ZP5,Promo: Secondary placement
+500,E,ZP6,Promo: Special products / Give-away
+500,E,ZP7,Promo: Multibuy
+500,E,ZP8,Promo: Direct Mail
+500,E,ZP9,Promo: General promo orders
+500,E,ZPA,Promo: ASM Push
+500,E,ZPB,FOC: MEM installation
+500,E,ZPC,FOC: MEM prolongation
+500,E,ZPD,FOC: Research and development
+500,E,ZR1,Expired
+500,E,ZR2,Customer doesn't have money
+500,E,ZR3,Compensation for expired
+500,E,ZR4,Destroyed products
+500,E,ZR5,Claim to 3d party
+500,E,ZRA,Damaged by Warehouse or during shipping
+500,E,ZRB,Production defect or shortage
+500,E,ZRC,Remaining shelflife too short (contract)
+500,E,ZRD,Material is absent in contract spec
+500,E,ZRE,Price does not correspond to contract
+500,E,ZRF,Contract termination with customer
+500,E,ZRG,Return of  surplus rejected by customer
+500,E,ZRH,Return of goods expired at customer
+500,E,ZRI,Return based on agreement with customer
+500,E,ZRJ,Return from public events
+500,E,ZRK,Return due to promo end
+500,E,ZRL,Overdelivery
+500,E,ZRM,Error in assortment
+500,E,ZRN,Pricing error (no specification exists)
+500,E,ZRO,Quality/property incompliance(contract)
+500,E,ZRP,FOC for CDA compensation
+500,E,ZRQ,Any refusal reasons: Period/Route closed
+500,E,ZRR,Wrong requisite det/customer name/ship-t
+500,E,ZRS,EDI: Order replacement by client
+500,E,ZRT,EDI: Order cancellation by client
+500,E,ZRU,EDI: Duplicate order
+500,E,ZRV,Wrong contract number
+500,E,ZRW,Unreasonable return
+500,E,ZS1,Sales-13:  Credit limit Check
+500,E,ZS2,Sales-14:  Wrong advice to carrier
+500,E,ZS3,Sales-15:  Data transfer
+500,E,ZS4,Sales-16:  Listing / KAM
+500,E,ZS5,Sales-17: Wrong customer master data
+500,E,ZS6,Sales-01:  MOQ  < CDA
+500,E,ZS7,Sales-02:  Delivery date < CDA
+500,E,ZS8,Sales-03:  Product changed  -cust.
+500,E,ZS9,Sales-04:  Date /Time changed  -cust
+500,E,ZSA,Sales-05:  Refusal of acceptance
+500,E,ZSB,Sales-06:  QA -  release missing
+500,E,ZSC,Sales-07:  OOS - technical problems
+500,E,ZSD,Sales-08:  OOS - Promo
+500,E,ZSE,Sales-09:  OOS - stock transfer late
+500,E,ZSF,Sales-10:  OOS -  Production delay
+500,E,ZSG,Sales-11:  Delay  in loading
+500,E,ZSH,Sales-12:  Delay - Packing capacity
+500,E,ZSI,Sales-18: Loading Capacity (Carrier Err)
+500,E,ZSJ,Sales-19:  Load - deliver
+500,E,ZSK,Sales-20:Delay due to Force Majeure
+500,E,ZSL,Sales-21: Delay in delivery(Carrier Err)
+500,E,ZSM,Sales-22:Delay due to Public Holiday
+500,E,ZT1,MISC: Return agreed with customer
+500,E,ZT2,MISC: Damaged in transit
+500,E,ZT3,MISC: Warehouse breakage
+500,E,ZT4,MISC: Production breakage
+500,E,ZU1,Test R&D
+500,E,ZU2,TRANSP: DSD shipping
+500,E,ZU3,3rd party vendor
+500,E,ZU4,Marketing
+500,E,ZU5,Untreated Residues
+500,E,ZU6,Residues Listing
+500,E,ZU7,Test Transport
+500,E,ZU8,Uncond. FG with soon expired date
+500,E,ZUA,Stock JucRM Opened pkg. Non-freezed
+500,E,ZUB,Stock JucRM Opened pkg. Freezed
+500,E,ZUC,Breakage JucRM Opened pkg. Freez
+500,E,ZUD,Breakage JucRM Opened pkg. Non-freez
+500,E,ZV1,Remain shelf life too short (contr) VIRT
+500,E,ZV2,Material is absent in contr spec VIRT
+500,E,ZV3,Contract termination with customer VIRT
+500,E,ZV4,Return based on agreem with cust VIRT
+500,E,ZV5,Overdelivery VIRT
+500,E,ZV6,Error in assortment VIRT
+500,E,ZV7,Unreasonable return VIRT
+500,E,ZV8,WRH 6 - Strike VIRT
+500,E,ZV9,C&R-14: Cust receiv less than ord VIRT
+500,E,ZY1,Yellow code
+500,E,ZZ1,Driver Stock Surplus
+500,E,ZZ2,Driver Stock Shortage
+500,E,ZZ3,Driver Cash Surplus
+500,E,ZZ4,Driver Cash Shortage
+500,E,ZZ5,Claims less than 500 value
+500,E,ZZ6,Valid claims - Rep signed
+500,E,ZZ7,Valid claims - Price Increase
+500,E,ZZ8,Stock Return Pricing Debit
+500,E,ZZ9,Invalid claims

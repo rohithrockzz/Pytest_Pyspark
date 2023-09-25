@@ -1,0 +1,216 @@
+﻿MANDT,SPRAS,ABGRU,BEZEI
+500,E,00,Assigned by the System (Internal)
+500,E,01,Delivery date too late
+500,E,02,Poor quality
+500,E,03,Too expensive
+500,E,04,Competitor better
+500,E,05,Guarantee
+500,E,10,Unreasonable request
+500,E,11,Cust.to receive replacement
+500,E,20,Invalid Customer Contract
+500,E,21,Does not meet the Delivery window
+500,E,22,SO is bellow minimum value
+500,E,23,Price difference
+500,E,24,Later placement of Promo SO
+500,E,25,Mistake of Customer Sevice
+500,E,26,Later placement of re-packing order
+500,E,27,Сancelled as a duplicate
+500,E,28,Cash value overlimit
+500,E,29,Order value is overlimit
+500,E,30,SO routing is incorrect
+500,E,31,Mistakes during SO creation
+500,E,32,Cancelled_Night delivery_additional SO
+500,E,33,Transport delay
+500,E,34,Missing rotation for Customer (listing)
+500,E,35,Conditional Data mistake (CS)
+500,E,36,Lack of administrative control
+500,E,37,Short demand forecast mistakes
+500,E,38,Long demand forecast mistakes
+500,E,39,Deviations from rules of new product lun
+500,E,40,Irregular demand at the end of the month
+500,E,41,Production planning mistakes
+500,E,42,Delivery planning mistakes
+500,E,43,Demand is below minimal producton batch
+500,E,44,Unplanned action
+500,E,45,Planning mistakes_Store overflow
+500,E,46,Delivery is failed_Stock transfers
+500,E,47,Does not meet Shelf life_Geography
+500,E,48,Technical problems on the line
+500,E,49,Missing Row materials
+500,E,50,Transaction is being checked
+500,E,51,Deviations from Production plan_Producti
+500,E,52,Production capacity limitation
+500,E,53,Missing Strategic stock of materials
+500,E,54,Incorrect packing design
+500,E,55,Delivery is failed by 3rd party supplier
+500,E,56,Unproper quality of row materials
+500,E,57,Delivery failure_Stock transfers_Transpo
+500,E,58,DMO mistakes
+500,E,59,Optimal sefety stock is below of calcula
+500,E,60,Changes for the Material (marketing)
+500,E,61,Planning mistakes for Row materials
+500,E,62,Not enough row materials of proper quali
+500,E,63,Late goods reciept
+500,E,64,Contract with Co-packer is expired
+500,E,65,Production Inventory is in progress
+500,E,66,Mistakes in planning of Row materials
+500,E,67,Problem on the Microbiology line
+500,E,68,Multiplicity of ordered quantity
+500,E,69,Allowed loss of SL (Serpentine)
+500,E,70,Volume limitation is within agreed range
+500,E,71,Maximal discount overlimit
+500,E,72,Mistakes of Sales person in SO processin
+500,E,73,Item has been corrected by Customer
+500,E,74,Item is mssing in Office matrix
+500,E,75,Not found in listing
+500,E,76,WH resources
+500,E,77,Infrastructure limits
+500,E,78,Cancell AM
+500,E,79,Wrong Master data
+500,E,80,Timing lag
+500,E,81,EDI Errors
+500,E,82,Functionality defects
+500,E,83,Planned works on the line
+500,E,84,Deficit Agro
+500,E,85,Freshness Safety stock correction
+500,E,86,Safety stock adj. to reduce write-offs
+500,E,87,Unapproved client activities
+500,E,88,Sanctions/Force Majeure
+500,E,89,Open Planning reason
+500,E,90,Cancelled by PepsiСo (OOS - AUTO)
+500,E,91,Error on the EDI provider side (IT)
+500,E,92,Order less than minimum_supplier
+500,E,93,Production resources
+500,E,94,Demand forecasting error (DFE)
+500,E,95,Category planning’s mistakes
+500,E,96,Quantum variance
+500,E,W0,Delisted SKU-Cust. Not Informed
+500,E,W1,Demand Planning Error
+500,E,W2,Irregular orders/volatile sku
+500,E,W3,Wrong vol phasing between weeks
+500,E,W4,Sales push-exhaust FG obsoletes
+500,E,W5,Sales push-exhaust RM obsoletes
+500,E,W6,Unannounced promo(timing & qty)
+500,E,W7,Orders exceeding fixed promo qty
+500,E,W8,Orders exceeding DC split promo qty
+500,E,W9,NPD/In-out
+500,E,WA,Stock rotation -Short shelf life
+500,E,WB,Replenishment planning error
+500,E,WC,Unbalanced stock
+500,E,WD,Raw Material Not Ready
+500,E,WE,Low Running Rate SKU
+500,E,WF,Late Quarantie Release
+500,E,WG,Cust. Deliv. Date Changed
+500,E,WH,Cust. Wrong Master Data
+500,E,WI,Cust. Delisted SKU
+500,E,WJ,Cust. Quota Exceeded
+500,E,WK,Ord.Mgt-Substitution
+500,E,WL,Carrier Capacity Exceeded
+500,E,WM,Carrier did not Arrived
+500,E,WN,Production Need Under MinBatch
+500,E,WO,Short shelf life due to SUF
+500,E,WP,Short shelf life due to supply issue
+500,E,WQ,SUF generating short shelf life(CoVid19)
+500,E,WR,SOF due to Force Majeur
+500,E,X1,New prod/discontinuation of old product
+500,E,X2,Promotional
+500,E,X3,Base extreme forecast error
+500,E,X4,Product switch not executed effectively
+500,E,X5,Design Delay
+500,E,X6,Fill & Kill Customer
+500,E,X7,Capping/Quota Process
+500,E,X8,Insufficient shelf-life for customer
+500,E,X9,Back order Management Process
+500,E,XA,Vendor Shortage
+500,E,XB,RM_Purchasing Quality issue
+500,E,XC,RM_Insufficient raw materials supply
+500,E,XD,Late development-not ready for call off
+500,E,XE,FG_Insufficient production capacity
+500,E,XF,FG_Inventory below defined parameters
+500,E,XG,FG_Scheduling error
+500,E,XH,Outside production window
+500,E,XI,Lack of SLAs on Co-man supplier
+500,E,XJ,Mfg_Unscheduled downtime
+500,E,XK,Slow running
+500,E,XL,Mfg_Waste
+500,E,XM,DRP_Insufficient product avail-ty at DCs
+500,E,XN,WH_Picking errors
+500,E,XO,WH_Damage
+500,E,XP,WH_Stock inconsistency
+500,E,XQ,WH_Preparation not on time
+500,E,XR,Loading errors
+500,E,XS,Carrier delayed - Primary transport
+500,E,XT,Carrier capacity -Primary transport
+500,E,XU,STO_Carrier delayed delivery
+500,E,XV,Distr_Planning error Transp. & Logistics
+500,E,XX,Cust refused delivery- Primary transport
+500,E,XY,STO_Damaged product during transport
+500,E,XZ,Carrier delayed - Secondary distribution
+500,E,Y0,FG_Display preparation not on time
+500,E,Y1,Material has inactive status
+500,E,Y2,Material is not extended for Sales Area
+500,E,Y3,EAN does not exist
+500,E,Y4,Material Determination missing for EAN
+500,E,Y5,Material is not listed for Customer
+500,E,Y6,Contract completed
+500,E,Y7,Material does not exist in Plant/StLoc
+500,E,YA,Carrier capacity- Secondary distribution
+500,E,YB,Cust refused del- Secondary distribution
+500,E,YC,Distr_Damaged product during transport
+500,E,YD,Customer's carrier issues (ex.works)
+500,E,YE,Customer Requested Change
+500,E,YF,Cust_Customer Ordering error
+500,E,YG,OM_Order Management Process
+500,E,YH,OM_Order Entry Correction
+500,E,YI,OM_Order Entry Error
+500,E,YJ,KAM_Master Data Issues
+500,E,YK,KAM_Admin error (Pricing/ Promo/NPD)
+500,E,YL,KAM_Business intelligence/Comm. factors
+500,E,YM,Sales Order entry error
+500,E,YN,Credit related
+500,E,YO,IT Systems Failure
+500,E,YP,FM_Operational Incident
+500,E,YQ,National Incident
+500,E,YR,Environmental Incident
+500,E,YU,FG_Co-man production vol below agreement
+500,E,YV,DP_New product launch
+500,E,YW,DP_Product changeover
+500,E,YX,DP_Base FC Error
+500,E,YY,DP_Promo FC Error
+500,E,YZ,Promo split
+500,E,Z0,Deprioritized assort
+500,E,Z1,Out of stock
+500,E,Z2,Product cancelled by customer
+500,E,Z3,Order cancelled by customer
+500,E,Z4,Cancelled by cust -PepsiCo´s fault
+500,E,Z5,Cancelled by cust - haulier´s fault
+500,E,Z6,Mat. returned w/o credit note to c.
+500,E,Z7,Claim in process - by CS&L
+500,E,Z8,Claim in process - by Finance
+500,E,Z9,Cancelled by Pepsico (Credit limit)
+500,E,ZA,Cancelled by Pepsico (Logistics)
+500,E,ZB,Other
+500,E,ZC,No price
+500,E,ZD,Wrong weight
+500,E,ZE,"Out of stock, replaced"
+500,E,ZF,Taken out of production
+500,E,ZG,Exceeding of forecast
+500,E,ZH,Product is on hold
+500,E,ZI,EDI order split
+500,E,ZJ,No invoice(Agreed in the contract)
+500,E,ZK,No invoice through WO process
+500,E,ZL,Out of stock (Limited availability)
+500,E,ZM,Canceled by PepsiCo (IT)
+500,E,ZN,Exceed the agreed volume with the client
+500,E,ZO,Late Order
+500,E,ZP,Rotation
+500,E,ZQ,Quote Not Accepted-MEM
+500,E,ZR,Equipment under warrantee
+500,E,ZS,Repair again (already invoiced)
+500,E,ZT,PM impact(Solve with no invoice)
+500,E,ZU,Issue with WO information
+500,E,ZV,Compliance process
+500,E,ZW,Reparation Cancelled
+500,E,ZX,Out of stock (Value incl. in Doc. Net)
+500,E,ZY,Data Migration
+500,E,ZZ,WO TECO by call center

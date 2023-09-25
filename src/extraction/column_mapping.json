@@ -1,0 +1,14 @@
+{
+    "TVAGT": {
+        "MANDT": "client_id",
+        "SPRAS": "language_code",
+        "ABGRU": "rejection_reason_id",
+        "BEZEI": "rejection_reason_desc"
+    },
+    "TVAUT": {
+        "MANDT": "client_id",
+        "SPRAS": "language_code",
+        "AUGRU": "order_reason_id",
+        "BEZEI": "order_reason_desc"
+    }
+}
