@@ -3,3 +3,4 @@
 .conda
 .pytest_cache
 local
+__pycache__

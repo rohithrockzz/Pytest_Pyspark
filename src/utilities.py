@@ -29,6 +29,6 @@ def rename_and_select_columns(dataframe: DataFrame,
         dataframe = dataframe.select(*mapping.values())
     return dataframe
 
-def read_data(spark, path):
+def read_data(path):
     """To read the data from csv"""
     return spark.read.csv(path, header=True, inferSchema=True)

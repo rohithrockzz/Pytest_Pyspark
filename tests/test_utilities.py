@@ -11,9 +11,8 @@ def spark_session():
     Returns:
     pyspark.sql.SparkSession: A SparkSession object for testing.
     """
-    spark = spark = SparkSession.builder.appName("YourAppName").getOrCreate()
-    yield spark
-    spark.stop()
+    spark = SparkSession.builder.appName("YourAppName").getOrCreate()
+    return spark
 
 # Define a pytest fixture to create sample data
 @pytest.fixture(scope="function")

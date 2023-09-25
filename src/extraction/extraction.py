@@ -1,14 +1,8 @@
 """Read data from silver table and selecting the required the column and renaming it"""
 
 import json
-from pyspark.sql import SparkSession
-
 from src.utilities import rename_and_select_columns, read_data
 
-# Initialize a Spark session
-spark = SparkSession.builder.appName("MySparkApp") \
-    .config("spark.local.dir", "local/temp") \
-    .getOrCreate()# Load the column mapping from the JSON file
 with open("src/extraction/column_mapping.json", encoding="utf-8") as file:
     column_mapping = json.load(file)
 
@@ -23,7 +17,7 @@ def extract_tables():
     # Load and transform each table dynamically
     for table_name in table_names:
         # Load the tables from CSV
-        table_df = read_data(spark, f"/src/data/{table_name}.csv")
+        table_df = read_data(f"/src/data/{table_name}.csv")
 
         # Apply the transformation function to the table
         processed_df = rename_and_select_columns(table_df, table_name, column_mapping)
