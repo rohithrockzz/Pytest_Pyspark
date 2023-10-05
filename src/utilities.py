@@ -32,3 +32,28 @@ def rename_and_select_columns(dataframe: DataFrame,
 def read_data(path):
     """To read the data from csv"""
     return spark.read.csv(path, header=True, inferSchema=True)
+import sqlite3
+
+def login(username, password):
+    conn = sqlite3.connect("user_db.db")
+    cursor = conn.cursor()
+
+    # Security hotspot: Concatenating user input directly into SQL query
+    query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
+    cursor.execute(query)
+
+    user = cursor.fetchone()
+    conn.close()
+
+    return user
+
+if __name__ == "__main__":
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+
+    user = login(username, password)
+
+    if user:
+        print("Login successful!") 
+    else:
+        print("Login failed.")
