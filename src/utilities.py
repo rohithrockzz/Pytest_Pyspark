@@ -34,7 +34,7 @@ def read_data(path):
     return spark.read.csv(path, header=True, inferSchema=True)
 import sqlite3
 
-def login(username, password):
+def Login(username, password):
     conn = sqlite3.connect("user_db.db")
     cursor = conn.cursor()
 
@@ -44,7 +44,7 @@ def login(username, password):
 
     user = cursor.fetchone()
     conn.close()
-
+    
     return user
 
 if __name__ == "__main__":
@@ -57,3 +57,6 @@ if __name__ == "__main__":
         print("Login successful!") 
     else:
         print("Login failed.")
+
+
+# code added for new branch
